@@ -17,7 +17,7 @@ Details for the class interfaces are found in the code.
 
 The student responses are arranged like this:
 
-<student_id>, <card labels>
+student_id, card labels
 
 So, for the following sample entry:
 
