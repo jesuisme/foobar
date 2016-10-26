@@ -9,9 +9,10 @@ The id for each student and the final order they sorted the cards are in the stu
 Your task is to score the card sorting done by each of the students
 
 Use the foobar.py module to write a new child class that:
+
 1. Reads the csv data
 2. Scores the card sorting
-3. Writes the results for each student to a separate CSV file
+3. Writes the results for each student as a row in a new CSV file
 
 Details for the class interfaces are found in the code.
 
