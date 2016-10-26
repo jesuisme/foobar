@@ -1,5 +1,4 @@
 # foobar
-Coding Test
 
 Grading Student Respsonses
 
@@ -14,7 +13,7 @@ Use the foobar.py module to write a new child class that:
 2. Scores the card sorting
 3. Writes the results for each student to a separate CSV file
 
-Details for the class interfaces are found in the code
+Details for the class interfaces are found in the code.
 
 The student responses are arranged like this:
 
@@ -31,3 +30,4 @@ The student, Lionel Messi, sorted the five cards in the following order:
 4. A3
 5. A4
 
+In addition, write a unit test for new class that tests the card sorting method.
