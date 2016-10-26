@@ -1,0 +1,28 @@
+# Ignore Python Files
+*.pyc
+
+#ignore log files
+*.log
+
+#ignore data files and csv files
+*.dat
+
+# ignore unit test coverage files
+
+
+# ignore files from running server
+nohup.out
+
+#Ignore EVENTUALLY local.py and productions settings
+baseproject/settings/local.py
+*/migrations/
+
+# ignore migrations folders
+migrations/
+migrations/*
+
+# ignore IntelliJ directories and settings
+*.iml
+.idea/
+.idea/*
+
