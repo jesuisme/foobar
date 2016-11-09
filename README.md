@@ -23,7 +23,8 @@ plus a single file named test_push.py.  The file should have a single line in it
 pushes after 10:00 IST will result in automatic disqualification.
 
 If you are unable to push to the repository, email a zipped copy of your branch to the test proctor between 15:55 and
-16:00.  The zip file should be titled <your_first_name>.zip
+16:00.  The zip file should be titled your_first_name.zip
+
 NOTE: You will not be able to push to the repository if you do not send your GitHub username to the test proctor.
 
 
@@ -33,7 +34,7 @@ Details for the class interfaces are found in the code.  The correct sorting ord
 
 The student responses are arranged in the csv file like this:
 
-<card labels>, <student_id>
+card labels, student id
 
 So, for the following sample entry:
 
@@ -56,7 +57,8 @@ In addition, any repeated entries (after the first) should be skipped.  For exam
 csv file three times, the line with the first occurrence should be scored and the other two should be skipped.
 
 The results should be written like this:
-<student_id>, <raw_score>, <percentage correct to two decimal places>
+
+student id, raw_score, percentage correct to two decimal places
 
 For example:
 lionel.messsi@barcelona.com, 3, 0.20
