@@ -9,10 +9,15 @@ The id for each student and the final order they sorted the cards are in the stu
 Your task is to score the card sorting done by each of the students.
 
 Use the foobar.py module to write a new child class that:
+
 1. Reads the csv data
+
 2. Scores the card sorting
+
 3. Writes the results for each student to a new CSV file
+
 4. Prints the average and standard deviation of the student raw scores
+
 
 Clone the GitHub repository and create a local branch using your first name.  Make the necessary code modifications.
 Then, push the branch between 15:55 and 16:00 IST.  Any pushes prior to 15:55 will result in automatic disqualification.
@@ -36,15 +41,22 @@ The student responses are arranged in the csv file like this:
 
 card labels, student id
 
+
 So, for the following sample entry:
 
 A1,A2,A5,A4,A3,lionel.messi@barcelona.com
 
+
 The student, Lionel Messi, sorted the five cards in the following order:
+
 1. A1
+
 2. A2
+
 3. A5
+
 4. A4
+
 5. A3
 
 His raw score is (3 correct cards * 4 points per correct card) - 2 points for incorrect cards = 10
@@ -61,7 +73,9 @@ The results should be written like this:
 student id, raw_score, percentage correct to two decimal places
 
 For example:
+
 lionel.messsi@barcelona.com, 3, 0.20
+
 
 The results file should be arranged from highest score to lowest score
 
