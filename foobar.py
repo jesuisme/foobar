@@ -14,9 +14,9 @@ class FoobarClass:
         :param max_score: The highest possible score
         """
         self.name = "FoobarBaseClass"
-        self.code_map = {'A1': 'a', 'A2': 'b', 'A3': 'c', 'A4': 'd', 'A5': 'e'}
+        self.code_map = {'A1': 'a', 'A2': 'b', 'A3': 'c', 'A4': 'd', 'A5': 'e', 'A6': 'f', 'A7': 'g'}
         self.answer = 'abcde'
-        self.max_score = 2*len(self.answer)
+        self.max_score = 20
 
     def levenshtein_score(self, source_string):
         """
@@ -73,13 +73,14 @@ class FoobarClass:
 
     def compute_score(self):
         """
-        Each correct card is worth 2 points.  Each incorrect card should subtract 1 point.
+        Each correct card is worth 4 points.  Each incorrect card should subtract 1 point.
+        Scores less than zero should be scored as zero
         """
         pass
 
     def write_student_scores(self):
         """
         The output format of the csv file should be:
-        <student id>, <score>
+        <student id>, <raw score>, <percentage correct>
         """
         pass
