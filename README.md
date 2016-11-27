@@ -19,18 +19,9 @@ Use the foobar.py module to write a new child class that:
 4. Prints the average and standard deviation of the student raw scores
 
 
-Clone the GitHub repository and create a local branch using your first name.  Make the necessary code modifications.
-Then, push the branch between 15:55 and 16:00 IST.  Any pushes prior to 15:55 will result in automatic disqualification.
-Any pushes after 16:00 IST will also result in disqualification.
+Please use the branch you created previously.  You may work together to learn the concepts and/or bug fix.  However, the
+code submitted by each person should be their own.
 
-You are allowed one test push prior to 10:00 IST.  The test push should contain the cloned copy of the master branch
-plus a single file named test_push.py.  The file should have a single line in it that reads "Test push to foobar."  Any
-pushes after 10:00 IST will result in automatic disqualification.
-
-If you are unable to push to the repository, email a zipped copy of your branch to the test proctor between 15:55 and
-16:00.  The zip file should be titled your_first_name.zip
-
-NOTE: You will not be able to push to the repository if you do not send your GitHub username to the test proctor.
 
 
 # Code Details
