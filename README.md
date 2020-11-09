@@ -19,9 +19,6 @@ Use the foobar.py module to write a new child class that:
 4. Prints the average and standard deviation of the student raw scores
 
 
-Please use the branch you created previously.  You may work together to learn the concepts and/or bug fix.  However, the
-code submitted by each person should be their own.
-
 
 
 # Code Details
@@ -52,7 +49,8 @@ The student, Lionel Messi, sorted the five cards in the following order:
 
 His raw score is (3 correct cards * 4 points per correct card) - 2 points for incorrect cards = 10
 because two moves (moving A5 to the end and moving A3 to the third position) would be required to
-change the submitted order to the correct order.
+change the submitted order to the correct order. This number of moves is known as the edit distance or Levenshtein Distance. 
+There is a Levenshtein Distance method included in the class.
 
 There are several test entries (the student id is test@test.com) in the csv file as well.  They should be skipped.
 
