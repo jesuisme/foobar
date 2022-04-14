@@ -1,17 +1,24 @@
 """
-Docstring for the class
+Module for the exercise
 """
 
 
 class FoobarClass:
+    """
+    The base class to be used for the exercise
+    """
 
     def __init__(self):
         """
         Initialize the class
         :param name: The class name
+        :type name: str
         :param code_map: A dictionary that specifies how the card labels should be converted to letters
+        :type code_map: dict
         :param answer: The correct ordering of cards (by their label) translated into a string according to the code map
+        :type answer: str
         :param max_score: The highest possible score
+        :type max_score: int
         """
         self.name = "FoobarBaseClass"
         self.code_map = {'A1': 'a', 'A2': 'b', 'A3': 'c', 'A4': 'd', 'A5': 'e', 'A6': 'f', 'A7': 'g'}
@@ -29,6 +36,7 @@ class FoobarClass:
         must be added to change "the" into "there"
 
         :param source_string: the string to be compared to the answer
+        :type source_string: str
         :return the number of edits to match the source with the answer, i.e. the number of incorrect cards
         """
         if source_string == self.answer:
@@ -56,8 +64,9 @@ class FoobarClass:
 
         For example, [A1, A2, A3] would become 'abc' based on the code map
 
-        :param card_order: the input list of card labels
-        :return: output_string: the list converted to a string
+        :param card_order: A list of strings containing the card labels
+        :type card_order: list
+        :return: A sting containing the converted card list
         """
         output_string = str()
         for card in card_order:
