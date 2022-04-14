@@ -8,7 +8,7 @@ The id for each student and the final order they sorted the cards are in the stu
 
 Your task is to score the card sorting done by each of the students.
 
-Use the foobar.py module to write a new child class that:
+Using the foobar.py module, apply Test Driven Development (TDD) principles to write a new child class that:
 
 1. Reads the csv data
 
@@ -67,7 +67,3 @@ lionel.messsi@barcelona.com, 3, 0.20
 
 
 The results file should be arranged from highest score to lowest score
-
-Finally, write a unit test for the new class.
-
-
